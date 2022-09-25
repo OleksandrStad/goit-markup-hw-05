@@ -631,19 +631,25 @@ img {
 
 }
 
-.is-hidden {
+/* .is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-}
+} */
 
 .close-button {
     position: absolute;
     top: 8px;
     right: 8px;
-    width: 30px;
+    /* width: 30px;
     height: 30px;
-    border-radius: 50%;
+    border-radius: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #FFFFFF;
+
     cursor: pointer;
 }
 
